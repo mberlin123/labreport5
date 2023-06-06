@@ -14,7 +14,7 @@ The project layout consists of the following files:
 
 ![image](https://github.com/mberlin123/labreport5/assets/122565198/74479ab5-5f08-4387-92de-014aa71db963)
 
-_penguin.txt_, _polarbear.txt_, and _reindeer.txt_ are .txt files containing information about each animal from Wikipedia. 
+_penguin.txt_, _polarbear.txt_, and _reindeer.txt_ are .txt files containing information about each animal from Wikipedia. The program is run from the command line by running the bash script when the current directory is the program folder. The program also requires the .java file which it compiles.
 
 The Java program I have written is as follows: 
 
@@ -23,8 +23,6 @@ The Java program I have written is as follows:
 And the Bash script I have written is as follows:
 
 ![image](https://github.com/mberlin123/labreport5/assets/122565198/f94bab87-75c3-43a2-8195-89bac0a6b415)
-
-The 
 
 
 **What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?**
@@ -50,4 +48,18 @@ Hi, I'm not sure exactly what the bug is yet but I was wondering if you are on W
 
 ### Student Response
 
-Hi, I have installed Windows Subsystem for Linux which you can use to run Bash commands in a Linux VM integrated into Windows. Your response made me realize the source of the bug: although I have Java and the Java JDK installed on Windows I did not have it installed in the Linux subsystem I was running the commands in. After installing Java and the Java JDK the program worked as expected! Thank you very much for your help.
+Hi, I have installed Windows Subsystem for Linux which you can use to run Bash commands in a Linux VM integrated into Windows. Your response made me realize the source of the bug: although I have Java and the Java JDK installed on Windows I did not have it installed in the Linux subsystem I was running the commands in. To fix the bugs I had to run the following commands in my Linux VM:
+
+![image](https://github.com/mberlin123/labreport5/assets/122565198/b1103cbf-611f-4244-8c84-720b6eea65fe)
+
+![image](https://github.com/mberlin123/labreport5/assets/122565198/532d5440-0b4d-4eed-9767-563a65c20b89)
+
+After installing Java and the Java JDK the program worked as expected as you can see in the output below! Thank you very much for your help and I hope you have a good rest of your day!
+
+![image](https://github.com/mberlin123/labreport5/assets/122565198/6e737304-b829-4548-8203-dd2cad5ca6bc)
+
+### Final TA Response
+
+Thank you! I am glad your error is resolved and I hope you have a good rest of your day!
+
+## Part 2 – Reflection
