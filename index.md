@@ -44,7 +44,7 @@ The failure inducing input is running the program with one of the three recogniz
 
 ### TA Response
 
-Hi, I'm not sure exactly what the bug is yet but I was wondering if you are on Windows why are you running it with 'bash' in front? Usually you would use git-bash or run the program in a linux VM as Windows does not natively have Bash commands.
+Hi, I'm not sure exactly what the bug is yet but I was wondering if you are on Windows why are you running it with 'bash' in front? Usually you would use git-bash or run the program in a Linux VM as Windows does not natively have Bash commands.
 
 ### Student Response
 
