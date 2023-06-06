@@ -1,5 +1,3 @@
-# Lab Report 5
-
 ## Part 1 – Debugging Scenario
 
 In Part 1 of this lab report, a hypothetical student encounters a bug in their program and submits a post on edStem detailing the problem. Their post is as follows:
