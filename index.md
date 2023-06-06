@@ -4,11 +4,17 @@
 
 In Part 1 of this lab report, a hypothetical student encounters a bug in their program and submits a post on edStem detailing the problem. Their post is as follows:
 
-_Note: Chat GPT and online resources were used to write portions of the hypothetical programming project._
+_Note: This is based on a real bug I ran into during a lab however the project is made up. Chat GPT and online resources were used to write portions of the hypothetical programming project._
 
 ### Original Student Post
 
 Hi, I have encountered a bug in my program. My program consists of a bash script which gives the first argument as an input to a java program.
+
+The project layout consists of the following files: 
+
+![image](https://github.com/mberlin123/labreport5/assets/122565198/74479ab5-5f08-4387-92de-014aa71db963)
+
+_penguin.txt_, _polarbear.txt_, and _reindeer.txt_ are .txt files containing information about each animal from Wikipedia. 
 
 The Java program I have written is as follows: 
 
@@ -17,6 +23,8 @@ The Java program I have written is as follows:
 And the Bash script I have written is as follows:
 
 ![image](https://github.com/mberlin123/labreport5/assets/122565198/f94bab87-75c3-43a2-8195-89bac0a6b415)
+
+The 
 
 
 **What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?**
@@ -38,5 +46,8 @@ The failure inducing input is running the program with one of the three recogniz
 
 ### TA Response
 
-Hi, I assumed you tried this but can you please run the javac and java commands in the terminal normally? If they don't work the
+Hi, I'm not sure exactly what the bug is yet but I was wondering if you are on Windows why are you running it with 'bash' in front? Usually you would use git-bash or run the program in a linux VM as Windows does not natively have Bash commands.
 
+### Student Response
+
+Hi, I have installed Windows Subsystem for Linux which you can use to run Bash commands in a Linux VM integrated into Windows. Your response made me realize the source of the bug: although I have Java and the Java JDK installed on Windows I did not have it installed in the Linux subsystem I was running the commands in. After installing Java and the Java JDK the program worked as expected! Thank you very much for your help.
