@@ -68,7 +68,7 @@ My favorite thing that I learned in the second half of the labs of this quarter 
 
 I used Chat GPT to generate a Java file that prints out the contents of a text file. The prompt I used was "write a java file to print out the contents of a text file" and my result was: 
 
-'''
+```
 Here is an example Java program that reads the contents of a text file:
 
 import java.io.BufferedReader;
@@ -89,19 +89,19 @@ public class Main {
         }
     }
 }
-'''
+```
 
-I then lightly modified this file to become the Java program used in the project by changing the 'String fileName = "path/to/file.txt";' line and renaming the class.
+I then lightly modified this file to become the Java program used in the project by changing the `String fileName = "path/to/file.txt";` line and renaming the class.
 
 The Bash script was also generated using Chat GPT, however it was modified much more significantly. The prompt I used was "write a bash script that prints an error if the first argument is not equal to penguin or reindeer". My result was as follows:
 
-'''
+```
 #!/bin/bash
 
 if [ "$1" != "penguin" ] && [ "$1" != "reindeer" ]; then
     echo "Error: First argument must be 'penguin' or 'reindeer'"
     exit 1
 fi
-'''
+```
 
 I then modified it by adding a third possible parameter, adding the java compilation and execution step, and adding an initial argument check.
