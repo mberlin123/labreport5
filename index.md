@@ -63,3 +63,5 @@ After installing Java and the Java JDK the program worked as expected as you can
 Thank you! I am glad your error is resolved and I hope you have a good rest of your day!
 
 ## Part 2 – Reflection
+
+My favorite thing that I learned in the second half of the labs of this quarter was SSH Keys. Logging in is always a time consuming and repetitive task and the ability to reduce that time using SSH keys was extremely helpful both in labs and in personal projects. Although I gained an incredible amount of knowledge while taking this course, using SSH keys may in the short term be my most frequently used application of the course material as logging into Github is itself such a common and frequent occurence.
