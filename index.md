@@ -2,7 +2,7 @@
 
 In Part 1 of this lab report, a hypothetical student encounters a bug in their program and submits a post on edStem detailing the problem. Their post is as follows:
 
-_Note: This is based on a real bug I ran into during a lab however the project is made up. Chat GPT and online resources were used to write portions of the hypothetical programming project._
+_Note: This is based on a real bug I ran into during a lab however the project is made up. Chat GPT and online resources were used to write portions of the hypothetical programming project. (The Chat GPT section is included at the end of this lab report)_
 
 ### Original Student Post
 
@@ -63,3 +63,45 @@ Thank you! I am glad your error is resolved and I hope you have a good rest of y
 ## Part 2 – Reflection
 
 My favorite thing that I learned in the second half of the labs of this quarter was SSH Keys. Logging in is always a time consuming and repetitive task and the ability to reduce that time using SSH keys was extremely helpful both in labs and in personal projects. Although I gained a large amount of knowledge while taking this course, using SSH keys may in the short term be my most frequently used application of the course material as logging into Github is itself such a common and frequent occurence.
+
+## Use of Chat GPT
+
+I used Chat GPT to generate a Java file that prints out the contents of a text file. The prompt I used was "write a java file to print out the contents of a text file" and my result was: 
+
+'''
+Here is an example Java program that reads the contents of a text file:
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class Main {
+    public static void main(String[] args) {
+        String fileName = "path/to/file.txt";
+
+        try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                System.out.println(line);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+'''
+
+I then lightly modified this file to become the Java program used in the project by changing the 'String fileName = "path/to/file.txt";' line and renaming the class.
+
+The Bash script was also generated using Chat GPT, however it was modified much more significantly. The prompt I used was "write a bash script that prints an error if the first argument is not equal to penguin or reindeer". My result was as follows:
+
+'''
+#!/bin/bash
+
+if [ "$1" != "penguin" ] && [ "$1" != "reindeer" ]; then
+    echo "Error: First argument must be 'penguin' or 'reindeer'"
+    exit 1
+fi
+'''
+
+I then modified it by adding a third possible parameter, adding the java compilation and execution step, and adding an initial argument check.
